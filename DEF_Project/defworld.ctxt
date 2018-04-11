@@ -2,7 +2,6 @@
 comment0.target=defworld
 comment1.params=
 comment1.target=defworld()
-comment1.text=\r\n\ Constructor\:\ Set\ up\ the\ staring\ objects.\r\n
 comment2.params=value
 comment2.target=void\ addScore(int)
 comment3.params=

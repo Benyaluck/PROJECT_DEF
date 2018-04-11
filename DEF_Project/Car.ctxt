@@ -4,7 +4,6 @@ comment1.params=
 comment1.target=Car()
 comment2.params=
 comment2.target=void\ checkCollision()
-comment2.text=\ \r\n\ Check\ whether\ we\ are\ touching\ a\ bacterium\ or\ virus.\ Remove\ \r\n\ bacteria.\ Game\ over\ if\ we\ hit\ a\ virus.\r\n
 comment3.params=
 comment3.target=void\ act()
 comment4.params=

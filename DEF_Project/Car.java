@@ -3,6 +3,7 @@ import greenfoot.*;
 
 public class Car extends Actor
 {
+    
     public Car()
     {
         GreenfootImage car = getImage();
@@ -10,28 +11,25 @@ public class Car extends Actor
         setImage(car);
     }
     
-    /** 
-     * Check whether we are touching a bacterium or virus. Remove 
-     * bacteria. Game over if we hit a virus.
-     */
     private void checkCollision()
     {
-        if (isTouching(Power.class))
+        if (isTouching(Carrot.class))
         { 
             Greenfoot.playSound("floop2_x.wav");
-            removeTouching(Power.class);
+            removeTouching(Carrot.class);
 
             defworld defworld =(defworld) getWorld();
             defworld.addScore(20);
         }
-        if (isTouching(Spike.class))
+        if (isTouching(Bomb.class))
         {
             Greenfoot.playSound("explosion_x.wav");
             defworld defworld =(defworld) getWorld();
-            removeTouching(Spike.class);
+            removeTouching(Bomb.class);
             defworld.addScore(-50);
 
         }
+        
     }
 
     public void act() 

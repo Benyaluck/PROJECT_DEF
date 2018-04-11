@@ -3,15 +3,16 @@ import greenfoot.*;
 
 public class defworld extends World
 {
+    
+    
     private int score;
     public int time;
-    /**
-     * Constructor: Set up the staring objects.
-     */
+    
     public defworld()
     {    
         super(780, 500, 1); 
-
+        
+        
         prepare();
         score = 0;
         time = 2000;
@@ -38,19 +39,19 @@ public class defworld extends World
 
         if (Greenfoot.getRandomNumber(100) < .5)
         {
-            addObject(new Spike(), 779, Greenfoot.getRandomNumber(360));
+            addObject(new Bomb(), 779, Greenfoot.getRandomNumber(360));
 
         }
         if (Greenfoot.getRandomNumber(100) < 4)
         {
-            addObject(new Tire(), 779, Greenfoot.getRandomNumber(360));
+            addObject(new Snow(), 779, Greenfoot.getRandomNumber(360));
         }   
         if (Greenfoot.getRandomNumber(100) < 4)
         {
-            addObject(new Power(), 779, Greenfoot.getRandomNumber(360));
+            addObject(new Carrot(), 779, Greenfoot.getRandomNumber(360));
 
         }
-
+       
        
         countTime();
         showTime();
@@ -61,8 +62,8 @@ public class defworld extends World
  
     private void prepare()
     {
-        Car whitecell = new Car();
-        addObject(whitecell, 83, 179);
+        Car car = new Car();
+        addObject(car, 83, 179);
 
       
     }
