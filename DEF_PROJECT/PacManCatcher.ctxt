@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PacManCatcher
+comment1.params=
+comment1.target=java.lang.Object\ returnIntersectingBalls()
+comment2.params=
+comment2.target=java.lang.Object\ returnIntersectingFruit()
+comment3.params=
+comment3.target=java.lang.Object\ returnIntersectingRedGhost()
+comment4.params=
+comment4.target=java.lang.Object\ returnIntersectingPinkGhost()
+comment5.params=
+comment5.target=java.lang.Object\ returnIntersectingBlueGhost()
+comment6.params=
+comment6.target=java.lang.Object\ returnIntersectingOrangeGhost()
+comment7.params=
+comment7.target=java.lang.Object\ returnIntersectingBigBall()
+numComments=8
